@@ -1,4 +1,3 @@
-
 # 2. numbers
 print("----------")
 # integers & floating-point numbers
