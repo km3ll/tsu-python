@@ -16,10 +16,3 @@ print("float division: 8 / 3 = ", float_division)
 # It just removes everything after the decimal place
 integer_division = 8 // 3
 print("integer division: 8 // 3 = ", integer_division)
-
-# 1. variables
-print("----------")
-user_id = 110011
-print("userId: ", user_id)
-user_id = 220022
-print("new userId: ", user_id)
