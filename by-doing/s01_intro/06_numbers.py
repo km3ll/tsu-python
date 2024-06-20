@@ -1,5 +1,7 @@
+print("-------")
+print("> start")
+
 # 2. numbers
-print("----------")
 # integers & floating-point numbers
 age = 35
 print("integer number: ", age)
@@ -16,3 +18,5 @@ print("float division: 8 / 3 = ", float_division)
 # It just removes everything after the decimal place
 integer_division = 8 // 3
 print("integer division: 8 // 3 = ", integer_division)
+
+print("> stop")
