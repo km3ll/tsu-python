@@ -19,7 +19,15 @@ jobs:
           python-version: '3.x'
       # You can test your matrix by printing the current Python version
 
-      - name: Display Python version
+      - name: 01 - Intro to Python
         working-directory: ./by-doing
         run: |
-          python -c "import sys; print(sys.version)"
+          python 04_variables_and_printing.py
+          python 06_numbers.py
+          python 07_remainder_of_a_division.py
+          python 10_strings.py
+          python 11_string_formatting.py
+          python 12_getting_user_input.py
+          python 14_booleans_and_comparisons.py
+          python 15_and_&_or.py
+          python 16_lists.py
