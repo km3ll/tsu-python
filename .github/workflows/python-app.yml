@@ -20,7 +20,7 @@ jobs:
       # You can test your matrix by printing the current Python version
 
       - name: 01 - Intro to Python
-        working-directory: ./by-doing
+        working-directory: ./by-doing/s01_intro
         run: |
           python 04_variables_and_printing.py
           python 06_numbers.py
