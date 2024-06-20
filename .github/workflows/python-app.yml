@@ -1,0 +1,25 @@
+name: TSU Pod 153
+
+on:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  by-doing:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      # You can test your matrix by printing the current Python version
+
+      - name: Display Python version
+        working-directory: ./by-doing
+        run: |
+          python -c "import sys; print(sys.version)"
