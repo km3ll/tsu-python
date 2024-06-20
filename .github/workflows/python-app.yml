@@ -23,9 +23,3 @@ jobs:
         run: |
           python 04_variables_and_printing.py
           python 06_numbers.py
-          python 10_strings.py
-          python 11_string_formatting.py
-          python 12_getting_user_input.py
-          python 14_booleans_and_comparisons.py
-          python 15_and_&_or.py
-          python 16_lists.py

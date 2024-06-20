@@ -1,3 +1,6 @@
+print("----------")
+print("pod: start")
+
 # 2. numbers
 print("----------")
 # integers & floating-point numbers
@@ -16,3 +19,5 @@ print("float division: 8 / 3 = ", float_division)
 # It just removes everything after the decimal place
 integer_division = 8 // 3
 print("integer division: 8 // 3 = ", integer_division)
+
+print("pod: end")
