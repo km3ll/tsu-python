@@ -1,8 +1,7 @@
-print("----------")
-print("pod: start")
+print("-------")
+print("> start")
 
 # 2. numbers
-print("----------")
 # integers & floating-point numbers
 age = 35
 print("integer number: ", age)
@@ -20,4 +19,4 @@ print("float division: 8 / 3 = ", float_division)
 integer_division = 8 // 3
 print("integer division: 8 // 3 = ", integer_division)
 
-print("pod: end")
+print("> stop")
