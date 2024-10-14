@@ -44,3 +44,7 @@
 - comments
 - concatenation
 - int to str
+- f-string
+- format
+- format using name
+- multi-variable f-string
