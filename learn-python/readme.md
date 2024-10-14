@@ -36,7 +36,7 @@
 - floats
 - operations
 - float / integer division
-- input
+- input function
 - type cast (int, float, str)
 - modulus operator
 - string template
@@ -48,3 +48,5 @@
 - format
 - format using name
 - multi-variable f-string
+- prompts
+- booleans
