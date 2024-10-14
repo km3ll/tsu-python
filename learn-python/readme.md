@@ -26,3 +26,21 @@
 - 22 - Python libraries
 - 23 - Python Reference / Refresher
 - 24 - Bonus Section
+
+## 01 - Intro to Python
+
+- variable
+- snake_case
+- constant
+- integers
+- floats
+- operations
+- float / integer division
+- input
+- type cast (int, float, str)
+- modulus operator
+- string template
+- strings
+- comments
+- concatenation
+- int to str
