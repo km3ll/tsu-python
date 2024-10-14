@@ -53,3 +53,10 @@
 - if-else
 - and & or
 - bool()
+- lists
+  - reverted[::-1]
+  - first[0]
+  - last[-1]
+  - append()
+  - remove()
+  - len()
