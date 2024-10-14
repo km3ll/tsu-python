@@ -1,14 +1,20 @@
-print("-------")
-print("> start")
-
-# 2. numbers
-# integers & floating-point numbers
+# integers
 age = 35
+
+# floats
+PI = 3.14159
+
+# operations
+result = 1 + 3 * 4 / 2 - 2
+print("result:", math_operation)
+
+
+# integers & floating-point numbers
+
 print("integer number: ", age)
 PI = 3.14159
 print("float number: ", PI)
-math_operation = 1 + 3 * 4 / 2 - 2
-print("math operation: ", math_operation)
+
 
 # Whenever you have a division you'll get a float type
 float_division = 8 / 3
