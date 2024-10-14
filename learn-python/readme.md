@@ -36,7 +36,7 @@
 - floats
 - operations
 - float / integer division
-- input function
+- input()
 - type cast (int, float, str)
 - modulus operator
 - string template
@@ -45,8 +45,11 @@
 - concatenation
 - int to str
 - f-string
-- format
+- format()
 - format using name
 - multi-variable f-string
 - prompts
 - booleans
+- if-else
+- and & or
+- bool()

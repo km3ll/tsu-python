@@ -1,38 +1,44 @@
-age = int(input('Enter your age: '))
-result_1 = age > 18 and age < 65
-result_2 = 18 >= age <= 65
-print('Your age is within the range:', result_2)
+# and & or
+age = 30
+within_range = 18 < age < 65
+print('Age within range:', within_range)
 
-# Evaluating empty values with bool() function
-print("Numbers:")
-print("bool(0)", bool(0))
-print("bool(12)", bool(12))
+# Evaluating empty values with bool()
+print("\nNumbers:")
+print("- bool(-10)", bool(-10))
+print("- bool(0)", bool(0))
+print("- bool(10)", bool(12))
 
-print('Strings: ')
-print("bool('')", bool(''))
-print("bool('Hello')", bool('Hello'))
+print('\nStrings:')
+print("- bool('')", bool(''))
+print("- bool(' ')", bool(' '))
+print("- bool('Hello')", bool('Hello'))
 
-print('Lists: ')
-print("bool([])", bool([]))
-print("bool([2, 4, 6])", bool([2, 4, 6]))
+print('\nLists:')
+print("- bool([])", bool([]))
+print("- bool([2, 4, 6])", bool([2, 4, 6]))
 
-# The `or` keyword gives us the second value if the first one is falsy.
-default_greeting = 'there'
-name = input('Enter your name: (optional) ')
-user_name = name or default_greeting
-print(f'Hello, {user_name}!')
+# The 'and' keyword gives us the second value if the first one is truthy.
+x = False
+compared_and = x and 18
+print('\nCompared "and":', compared_and)
 
-# The `and` keyword gives us the second value if the first one is truthy.
-x = True
-cmp = x and 18
-print('cmp value: ', cmp)
+default_age = 30
+y = 0
+compared_or = y or default_age
+print('\nCompared "or":', compared_or)
 
-# Keywords `and` and `or` have the same priority and evaluate left to right when in one line.
+# Keywords 'and' and 'or' have the same priority and evaluate left to right when in one line.
 age = 16
 side_job = True
-print(age > 18 and age <65 or side_job)
-# The conditionals evaluate first, and then `and` and `or` evaluate left to right.
-# That means that we are evaluating `False and True or True`.
-# Since we evaluate left to right, `False and True` give us `False`.
-# We are left with `False or True`, which gives us `True`.
+print(18 < age < 65 or side_job)
+# The conditionals evaluate first, and then 'and' and 'or' evaluate left to right.
+# That means that we are evaluating 'False and True or True'.
+# Since we evaluate left to right, 'False and True' give us 'False'.
+# We are left with 'False or True', which gives us 'True'.
 
+# The 'or' keyword gives us the second value if the first one is falsy.
+default_greeting = 'there'
+user_input = input('\nEnter your name: (optional) ')
+name = user_input or default_greeting
+print(f'Hello, {name}!')
