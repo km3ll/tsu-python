@@ -60,3 +60,7 @@
   - append()
   - remove()
   - len()
+- tuples
+- sets
+  - add()
+  - remove()
