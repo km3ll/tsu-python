@@ -56,6 +56,7 @@
 - lists
   - append()
   - first[0]
+  - join()
   - last[-1]
   - len()
   - remove()
@@ -74,3 +75,5 @@
   - dict()
   - get
   - set
+
+## 02 - Python fundamentals

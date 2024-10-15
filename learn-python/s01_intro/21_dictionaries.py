@@ -33,7 +33,7 @@ print("friend's name:", friends[0]["name"])
 friend = friends[0]
 print("friend's name:", friend["name"])
 
-# convert list into a dictionary
+# dict: convert list into a dictionary
 more_friends = [("Rolf", 34), ("Adam", 30), ("Anne", 27)]
 dict_friends = dict(more_friends)
 print("dict friends.:", dict_friends)

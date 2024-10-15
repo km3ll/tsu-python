@@ -15,6 +15,7 @@ science_friends = {"Jen", "Charlie"}
 print("art friends....:", art_friends)
 print("science friends:", science_friends)
 
+# difference
 art_but_not_science = art_friends.difference(science_friends)
 print("art only.......:", art_but_not_science)
 
@@ -25,8 +26,10 @@ print("science only...:", science_but_not_art)
 not_in_both = art_friends.symmetric_difference(science_friends)
 print("not in both....:", not_in_both)
 
+# intersection
 in_both = art_friends.intersection(science_friends)
 print("in both........:", in_both)
 
+# union
 all_friends = art_friends.union(science_friends)
 print("all friends....:", all_friends)
