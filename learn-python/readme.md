@@ -54,13 +54,17 @@
 - and & or
 - bool()
 - lists
-  - reverted[::-1]
+  - append()
   - first[0]
   - last[-1]
-  - append()
-  - remove()
   - len()
+  - remove()
+  - reverted[::-1]
 - tuples
 - sets
   - add()
+  - difference()
+  - intersection()
   - remove()
+  - symmetric_difference()
+  - union()
