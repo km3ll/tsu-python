@@ -1,3 +1,3 @@
 # tsu-python
 
-- [by-doing](by-doing)
+- [learn-python](learn-python)

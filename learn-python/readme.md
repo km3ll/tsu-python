@@ -26,3 +26,54 @@
 - 22 - Python libraries
 - 23 - Python Reference / Refresher
 - 24 - Bonus Section
+
+## 01 - Intro to Python
+
+- variable
+- snake_case
+- constant
+- integers
+- floats
+- operations
+- float / integer division
+- input()
+- type cast (int, float, str)
+- modulus operator
+- string template
+- strings
+- comments
+- concatenation
+- int to str
+- f-string
+- format()
+- format using name
+- multi-variable f-string
+- prompts
+- booleans
+- if-else
+- and & or
+- bool()
+- lists
+  - append()
+  - first[0]
+  - join()
+  - last[-1]
+  - len()
+  - remove()
+  - reverted[::-1]
+  - sum()
+- tuples
+- sets
+  - add()
+  - difference()
+  - intersection()
+  - remove()
+  - symmetric_difference()
+  - union()
+- dictionaries
+  - change
+  - dict()
+  - get
+  - set
+
+## 02 - Python fundamentals
