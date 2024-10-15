@@ -40,3 +40,11 @@ amigos_y_edades = [
 print('\nAmigos y edades:', amigos_y_edades)
 amigos_y_edades.remove(['Rolf', 24])
 print('  .remove[\'Rolf\', 24]:', amigos_y_edades)
+
+grades = [80, 75, 90, 100]
+total = sum(grades)
+length = len(grades)
+
+print("\nsum....:", total)
+print("length.:", length)
+print("average:", total / length)

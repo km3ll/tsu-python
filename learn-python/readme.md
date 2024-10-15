@@ -60,6 +60,7 @@
   - len()
   - remove()
   - reverted[::-1]
+  - sum()
 - tuples
 - sets
   - add()
@@ -73,4 +74,3 @@
   - dict()
   - get
   - set
-  
