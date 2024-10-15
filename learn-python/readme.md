@@ -68,3 +68,9 @@
   - remove()
   - symmetric_difference()
   - union()
+- dictionaries
+  - change
+  - dict()
+  - get
+  - set
+  
